@@ -13,7 +13,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 
 /**
- * Created by LTN on 24-Feb-17.
+ * Created by Luong Thanh Nhinh on 24-Feb-17.
  */
 
 public class HttpHandler {
