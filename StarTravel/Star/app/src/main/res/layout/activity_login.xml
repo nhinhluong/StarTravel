@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hug.star.LoginActivity">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/picture"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="200sp"
+            android:layout_height="200sp"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="205dp"
+            />
+        <TextView
+            android:id="@+id/name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="235dp"/>
+        <TextView
+            android:id="@+id/email"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="265dp"/>
+        <Button
+            android:id="@+id/details"
+            android:text="Xem Chi Tiết"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/share"
+            android:text="Bài Đăng"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <Button
+            android:id="@+id/back"
+            android:text="Back"
+            android:layout_gravity="center"
+            android:layout_marginTop="400dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+</RelativeLayout>

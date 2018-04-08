@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuRight1"
+        android:orderInCategory="100"
+        android:icon="@drawable/foldedmap"
+        app:showAsAction="always"
+        android:title="" />
+    <item
+        android:id="@+id/menuRight2"
+        android:orderInCategory="100"
+        android:icon="@drawable/calendar"
+        app:showAsAction="always"
+        android:title="" />
+    <item android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+</menu>

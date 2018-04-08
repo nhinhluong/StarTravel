@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_login"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Upload" />
+        <item
+            android:id="@+id/nav_lichtrinh"
+            android:icon="@drawable/ic_lichtrinh"
+            android:title="Plans" />
+        <item
+            android:id="@+id/nav_meodulich"
+            android:icon="@drawable/ic_menu_forum"
+            android:title="Travel Tips" />
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contribution" />
+            <item
+                android:id="@+id/nav_intro"
+                android:icon="@drawable/ic_menu_introduce"
+                android:title="Introduce" />
+        </menu>
+    </item>
+
+</menu>

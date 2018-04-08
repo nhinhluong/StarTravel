@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowActionBar="false"
+    tools:context="com.example.hug.star.SplashScreen">
+
+
+    <TextView
+        android:text="STAR"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twSplash1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/star"
+        android:id="@+id/imageViewSplash"
+        android:layout_below="@+id/twSplash1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="The Travel Guide Application"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewSplash"
+        android:layout_alignLeft="@+id/twSplash1"
+        android:layout_alignStart="@+id/imageViewSplash"
+        android:layout_marginTop="13dp"
+        android:id="@+id/twSplash2" />
+</RelativeLayout>
